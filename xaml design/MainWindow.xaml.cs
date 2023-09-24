@@ -20,6 +20,7 @@ namespace xaml_design
     /// </summary>
     public partial class MainWindow : Window
     {
+        DataBase dataBase = new DataBase();
         public MainWindow()
         {
             InitializeComponent();
@@ -86,6 +87,7 @@ namespace xaml_design
             {
                 MessageBox.Show("Вы успешно зарегистрировались");
             }
+
         }
     }
 }
